@@ -24,173 +24,804 @@
       </header>
       <section>
         <h1>Notre menu</h1>
-
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
-
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
-
-        <p>Roses are red<br>
-        Violets are blue</p>
-
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
-
-        <p>Roses are red<br><br>
-        Violets are blue</p>
-
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
-
-        <h2>A bit of the GitHub spice</h2>
-
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
-
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
-
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
-
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
-
-        <h2>Math is hard, let's go shopping</h2>
-
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-
-        <p>Triangles man! a^2 + b^2 = c^2</p>
-
-        <h2>We all like making lists</h2>
-
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
-
-        <p>Let's get crazy:</p>
-
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
-
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
-
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
-
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
-
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
-
-        <p>Some people seem to like definition lists</p>
-
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <h2>I am a robot</h2>
-
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-
-        <p>How about we throw some angle braces and ampersands in there?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Set in stone</h2>
-
-        <p>Preformatted blocks are useful for ASCII art:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Playing the blame game</h2>
-
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
-
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-
-        <p>Or perhaps someone a little less eloquent:</p>
-
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
-
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
-
-        <h2>Table for two</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Crazy linking action</h2>
+<p>Chez Arnaud</p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="567">
+<p>Les entr&eacute;es</p>
+</td>
+<td width="57">
+<p>9.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p>TOMATES MOZZARELLA</p>
+<p>SARDINES &agrave; l&rsquo;huile avec son pain toast&eacute;</p>
+<p>Camembert roti</p>
+</td>
+<td width="57">
+<p>9.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p>&OElig;UF COCOTTE CHAMPIGNONS</p>
+<p>Eggs and mushrooms</p>
+</td>
+<td width="57">
+<p>9.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p>&OElig;UF COCOTTE GORGONZOLA</p>
+<p>Eggs and gorgonzola chease</p>
+</td>
+<td width="57">
+<p>9.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p>&OElig;UF COCOTTE SAUMON CREME FRAICHE</p>
+<p>Eggs and salmon and fresh cream</p>
+</td>
+<td width="57">
+<p>9.50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="567">
+<p>Pizza</p>
+</td>
+<td width="57">
+<p>Prix</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>FERNANDEL</strong></p>
+<p>Sauce tomate,&nbsp;mozzarella, jambon de pays, copeaux de parmesan, champignons<br /> Tomato sauce, mozzarella, country ham, parmesan cheese, mushrooms</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Luis mariano</strong></p>
+<p>Sauce tomate, mozzarella, champignons, ognons caram&eacute;lis&eacute;s, ch&egrave;vre, magret fum&eacute;</p>
+<p><br /> Tomato sauce, mozzarella, mushrooms, onions, goat&rsquo;s cheese, smoked duck breast</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Piaf</strong></p>
+<p>Sauce tomate, mozzarella, ch&egrave;vre, lardons, miel<br /> Tomato sauce, mozzarella, goat&rsquo;s cheese, bacon, honey</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Aznavour</strong></p>
+<p>Sauce tomate, mozzarella, viande hach&eacute;e, pomme de terre, chorizo</p>
+<p>Tomato sauce, mozzarella, minced meat, potatoes, chorizo</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Montand</strong></p>
+<p>Cr&egrave;me fraiche, mozzarella, thon, &oelig;uf , ognons caram&eacute;lis&eacute;s</p>
+<p><br /> Cream cheese, mozzarella, tuna, egg, onions</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>PARRAIN</strong></p>
+<p>Sauce tomate, mozzarella, jambon blanc, lardons, jambon pays, piment, parmesan</p>
+<p>Tomato sauce, mozzarella, Paris ham, bacon, country ham, peppers, parmesan cheese</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>BELMONDO</strong></p>
+<p>Sauce tomate, mozzarella, merguez, champignons, piment, &oelig;uf</p>
+<p>Tomato sauce, mozzarella, merguez, mushrooms, chilli, egg</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>CAPITAINE HADDOCK</strong></p>
+<p>Sauce tomate, mozzarella, fruits de mer, persillade, poivrons</p>
+<p><br /> Tomato sauce, mozzarella, sea foods, parsly, peppers</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>HEPBURN</strong></p>
+<p>Sauce tomate, mozzarella, poivrons, artichauds</p>
+<p>Tomato sauce, mozzarella, peppers, artichokes</p>
+<p><strong>&nbsp;</strong></p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>MANON DES SOURCES</strong></p>
+<p>Sauce tomate, mozzarella, champignons, poulet, oeuf</p>
+<p>Tomato sauce, mozzarella, mushrooms, chicken, egg</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>CLOCLO</strong></p>
+<p>Sauce tomate, mozzarella, aubergine, lardons, ch&egrave;vre, champignons</p>
+<p>Tomato sauce, mozzarella, eggplant, bacon, goat&rsquo;s cheese, mushrooms</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Galabru</strong></p>
+<p>Sauce tomate, mozzarella, pommes de terre, oignons, reblochon, lardon</p>
+<p>Tomato sauce, mozzarella, potatoes, onions, reblochon, bacon</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Monroe</strong></p>
+<p>Cr&egrave;me fraiche, mozzarella, persillade, saumon,</p>
+<p>Fresh cream, mozzarella, parsly, salmon</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Pagnol</strong></p>
+<p>Sauce tomate, mozzarella, champignons, jambon de pays, poivrons, herbes de province, copeaux de parmesan, oignons</p>
+<p>Tomato sauce, mozzarella, mushrooms, country ham, herbs, sweet peppers, parmesan cheese, onions</p>
+<p>&nbsp;</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>BRASSENS</strong></p>
+<p>Sauce tomate, mozzarella, poulet, oignons, poivrons</p>
+<p>Tomato sauce, mozzarella, chicken, onions, sweet peppers</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>ELVIS</strong></p>
+<p>Sauce tomate, mozzarella, merguez, chorizo, piment, oignons</p>
+<p>Tomato sauce, mozzarella, sausage, chorizo, peppers, onions</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>GABIN</strong></p>
+<p>Sauce tomate, mozzarella, copeaux de parmesan, viande hach&eacute;e, oignons, &oelig;uf</p>
+<p>Tomato sauce, mozzarella, parmesan cheese, minced meat, onions, egg</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>DELON</strong></p>
+<p>Sauce tomate, mozzarella, gorgonzola, ch&egrave;vre, miel</p>
+<p>Tomato sauce, mozzarella, gorgonzolla, goat&rsquo;s cheese, honey</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>DALIDA</strong></p>
+<p>Sauce tomate, mozzarella, thon, poivrons, anchois, persillade</p>
+<p>Tomato sauce, mozzarella, tuna, peppers, anchovies, parsley</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>BOURVIL</strong></p>
+<p>Sauce tomate, mozzarella, poulet, aubergine, oignons caram&eacute;lis&eacute;s</p>
+<p>Tomato sauce, mozzarella, tuna, peppers, anchovies, eggplant</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>CABREL</strong></p>
+<p>Sauce tomate, mozzarella, gorgonzola, jambon blanc, oeuf</p>
+<p>Tomato sauce, mozzarella, gorgonzolla, ham, egg</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>FRANKY VINCENT</strong></p>
+<p>Sauce tomate, mozzarella, ananas, poivrons marines, poulet</p>
+<p>Tomato sauce, mozzarella, pineapple, peppers, chicken</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="567">
+<p>Burgers</p>
+</td>
+<td width="57">
+<p>Prix</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Le Rossini</strong></p>
+<p>Steak, foie gras, oignons caram&eacute;lis&eacute;s</p>
+<p>Steak, foie gras, caramelized onions</p>
+</td>
+<td width="57">
+<p>17</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>LE NEMO</strong></p>
+<p>Crevettes, saumon, salade</p>
+<p>Shrimps, salmon, salad</p>
+</td>
+<td width="57">
+<p>16</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>LE BACON</strong></p>
+<p>Oignons ,steak, cheddar, bacon, &oelig;uf</p>
+<p>Onions, steak, cheddar cheese, bacon, beef, egg</p>
+</td>
+<td width="57">
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>LE XXL</strong></p>
+<p>2 Steaks, cheddar, oignons caram&eacute;lis&eacute;s</p>
+<p>2 Steaks, cheddar, caramelized onions</p>
+</td>
+<td width="57">
+<p>17</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>LE CHICKEN</strong></p>
+<p>Poulet, oignons caram&eacute;lis&eacute;s</p>
+<p>Chiken, caramelized onions</p>
+</td>
+<td width="57">
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>LE BARDOT VEGETARIEN</strong></p>
+<p>Steak de 8 l&eacute;gumes, boursin, oignons caram&eacute;lis&eacute;s</p>
+<p>Vegetables steak, boursin cheese, caramelized onions</p>
+</td>
+<td width="57">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Pinocchio</strong></p>
+<p>Steak, bacon, gorgonzola, onions caram&eacute;lis&eacute;s</p>
+<p>Steak, bacon, gorgonzola caramelized onions</p>
+</td>
+<td width="57">
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p>Suppl&eacute;ment &oelig;uf</p>
+<p>Additional egg</p>
+</td>
+<td width="57">
+<p>+1.50 &euro;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="567">
+<p>Les plats</p>
+</td>
+<td width="57">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Potence de b&oelig;uf</strong></p>
+<p>Frites maison, haricots verts<br /> beef, chips, green beans</p>
+</td>
+<td width="57">
+<p>16.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Potence de poulet</strong></p>
+<p>Frites maison, haricots verts<br /> Chicken, chips, green beans</p>
+</td>
+<td width="57">
+<p>16.50</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Potence de saumon</strong></p>
+<p>Frites maison, haricots verts<br /> Salmon, chips, green beans</p>
+</td>
+<td width="57">
+<p>17</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Potence de gambais</strong></p>
+<p>riz, haricots verts<br /> Big shrimp, rice, green beans</p>
+</td>
+<td width="57">
+<p>25</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Tagliatelles au saumon</strong></p>
+<p>Saumon fum&eacute;, cr&egrave;me fraiche</p>
+<p>Pasta with marinated salmon, fresh cream</p>
+</td>
+<td width="57">
+<p>14</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Tagliatelles carbonara</strong></p>
+<p>Lardons, cr&egrave;me, jaune d&rsquo;oeuf</p>
+<p>Pasta with bacon,egg, fresh cream</p>
+</td>
+<td width="57">
+<p>15</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Penne foresti&egrave;re</strong></p>
+<p>Penne, sauce champignons et &eacute;chalotte</p>
+<p>Pasta, mushrooms and shalotts sauce</p>
+</td>
+<td width="57">
+<p>14</p>
+</td>
+</tr>
+<tr>
+<td width="567">
+<p><strong>Penne v&eacute;g&eacute;tarienne</strong></p>
+<p>Penne, champignons, aubergine et poivrons</p>
+<p>Pasta, mushrooms , peppers, eggplants</p>
+</td>
+<td width="57">
+<p>14</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="557">
+<p>Les tartines</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>PAIN CON TOMATES Y JAMON DEL PAIS</p>
+<p>PAIN TOAST&Eacute; PERSILLADE TOMATES JAMBON DE PAYS</p>
+<p>Toasted bread with tomatoes, country ham, parsley</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>SAUMON</strong><br /> Pain saut&eacute;, tomates, mozzarella, saumon fume</p>
+<p>Toeasted bread, tomatoes, mozzarella and smoked salmon</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>FOIE GRAS</strong></p>
+<p>Pain toast&eacute;, oignions caram&eacute;lis&eacute;s, foie gras po&ecirc;l&eacute;</p>
+<p>Toeasted bread, caramelized onions, fried foie gras</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>V&Eacute;G&Eacute;TARIENNE</strong></p>
+<p>Base sauce tomate, mozzarella, ch&egrave;vre, poivrons marin&eacute;s, miel</p>
+<p>Tomato sauce, mozzarella, goat&rsquo;s cheese, marinated peppers, honey</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="557">
+<p>Les salades</p>
+</td>
+<td width="66">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>GRECO </strong></p>
+<p>Thon, poivrons, olives, &oelig;ufs, anchois, pomme de terre</p>
+<p>Salad, tomatoes, tuna, peppers, olives, eggs, anchovies, potatoes</p>
+</td>
+<td width="66">
+<p>14.50</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>ABBA</strong></p>
+<p>&oelig;ufs,saumon fum&eacute;, pommes vertes, cr&egrave;me fraiche persill&eacute;e</p>
+<p>Salad, tomatoes, eggs, smoked salmon, green apples, fresh cream</p>
+</td>
+<td width="66">
+<p>14.50</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>SEGUIN</strong></p>
+<p>&oelig;ufs, brick de ch&eacute;vre, miel, lardons</p>
+<p>Salad, tomatoes, eggs, cheese brick, honey</p>
+</td>
+<td width="66">
+<p>14.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>SHELA</strong></p>
+<p>Carottes, concombres, artichauds, aubergines</p>
+<p>Salad, tomatoes, carrots, cucumber, artichoke</p>
+</td>
+<td width="66">
+<p>12.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>DUTRONC</strong></p>
+<p>G&eacute;siers confits, &oelig;ufs poch&eacute;s, magr&eacute; fum&eacute;</p>
+<p>Salad, gizzards, poached eggs, pine nuts, smocked duck-breast</p>
+</td>
+<td width="66">
+<p>16.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p><strong>SPARTACUS</strong></p>
+<p>Fillet de poulet, crouton &agrave; l&rsquo;ail, parmesan, &oelig;ufs mayonnaise</p>
+<p>Salad, chicken breast, garlic crouton, parmesan cheese, eggs</p>
+</td>
+<td width="66">
+<p>14.50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="557">
+<p>Fromages et desserts</p>
+</td>
+<td width="66">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>LA PLANCHE DE FROMAGE&nbsp;&nbsp; Roblochon, gorgonzola et ch&egrave;vre</p>
+</td>
+<td width="66">
+<p>7.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>PANNA COTTA&nbsp;&nbsp;&nbsp; Fruits rouges, panna cotta with red fruits</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>TARTE DU JOUR, Tarte of the day</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>FONDANT AU CHOCOLAT, Cr&egrave;me anglaise&nbsp;</p>
+<p>Chocolate cake with cream</p>
+</td>
+<td width="66">
+<p>6.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>CR&Egrave;ME BRUL&Eacute;E, Caramelized crustard cream&nbsp;</p>
+</td>
+<td width="66">
+<p>5.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>TIRAMISSU Speculos</p>
+</td>
+<td width="66">
+<p>5.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>CAF&Eacute; Gourmand selon les desserts du jour</p>
+</td>
+<td width="66">
+<p>7.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>TH&Eacute; Gourmand selon les desserts du jour</p>
+</td>
+<td width="66">
+<p>8.50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>PIZZA D&eacute;ssert</p>
+<p>Calzon Nutelle, banana ou ananas</p>
+</td>
+<td width="66">
+<p>7.50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td width="557">
+<p>Boissons</p>
+</td>
+<td width="66">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Coca canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Tropico &nbsp;Canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Orangina canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Coca z&eacute;ro canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Oasis canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>1/2 vittel</p>
+</td>
+<td width="66">
+<p>2,50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>1/2 sampellegrino</p>
+</td>
+<td width="66">
+<p>2,50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Tropico litre</p>
+</td>
+<td width="66">
+<p>4,50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Coca litre</p>
+</td>
+<td width="66">
+<p>4,50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>Vittel litre</p>
+</td>
+<td width="66">
+<p>3,50</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>ice tea canette</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+</tr>
+<tr>
+<td width="557">
+<p>ice tea litre</p>
+</td>
+<td width="66">
+<p>4,50</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
         <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
         <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
